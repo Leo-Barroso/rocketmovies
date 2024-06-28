@@ -1,13 +1,13 @@
 import styled from "styled-components";
 export const Container = styled.header`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 116px;
     width: 100%;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #948F99;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 24px 123px;
     > h1 {
         color: ${({theme}) => theme.colors.title};

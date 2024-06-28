@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Container = styled.div`
-    width: 100%;
+    width: 100%; 
     display: flex;
     align-items: center;
     background-color: #312E38;
@@ -10,6 +10,7 @@ export const Container = styled.div`
     > input {
         height: 56px;
         width: 100%;
+        display: flex;
         padding: 12px;
         color: white;  
         background: transparent;
